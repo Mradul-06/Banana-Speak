@@ -1,12 +1,14 @@
 var btntranslate = document.querySelector("#btn-translate");
 var txtinput = document.querySelector("#txt-input");
+var outputdiv=document.querySelector("#output");
 
-console.log(txtinput)
+// outputdiv.innertext ="mradul"
+
 
 function clickHandler()
 {
-    console.log("clicked");
-    console.log("input", txtinput.value);
+    console.log(txtinput.value)
+    outputdiv.innerText= txtinput.value;
 };
 
 
