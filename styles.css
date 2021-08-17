@@ -1,4 +1,5 @@
 textarea {
+    border-radius: 2rem;
     width: 80%;
     height: 10vh;
     display: block;
@@ -7,6 +8,8 @@ textarea {
 }
 
 #output {
+    border-radius: 2rem;
+    background-color:white;
     border: 1px solid black;
     height: 10vh;
     width: 80%;
@@ -20,9 +23,11 @@ h1{
     text-align: center;
 }
 #btn-translate{
+    background-color:red;
     margin:auto;
     display: flex;
-    color:green
+    color:black;
+    font-weight: bolder;
 }
 #text-output {
     text-align: center;
